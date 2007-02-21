@@ -1,0 +1,11 @@
+category: KDE
+requires: cygwin kdelibs4 qt3 akode arts gstreamer08
+external-source: kdeaccessibility
+sdesc: "KDE text-to-speech engine"
+ldesc: "KDE accessibility suite:
+* kbstateapplet: keyboard state applet
+* kmag: screen magnifier
+* kmousetool: clicks mouse button automatically based on mouse movements
+* kmouth: speech synthesizer frontend
+* ksayit: text-to-speech frontend
+* kttsd: text-to-speech engine"
