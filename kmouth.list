@@ -3,5 +3,6 @@ usr/share/applnk/Applications/kmouth.desktop
 usr/share/apps/kmouth/
 usr/share/config/kmouthrc
 usr/share/doc/HTML/en/kmouth/
-usr/share/icons/hicolor/*/apps/kmouth.png
 usr/share/doc/kmouth-*/
+usr/share/icons/hicolor/*/apps/kmouth.png
+usr/share/icons/locolor/*/apps/kmouth.png

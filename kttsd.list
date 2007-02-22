@@ -6,6 +6,7 @@ usr/lib/kde3/cygkttsjobmgrpart.dll
 usr/lib/kde3/kcm_kttsd.*
 usr/lib/kde3/ktexteditor_kttsd.*
 usr/lib/kde3/libkttsd_*.la
+usr/lib/kde3/libkttsjobmgrpart.la
 usr/lib/libkttsd.*
 usr/share/applications/kde/kcmkttsd.desktop
 usr/share/applications/kde/kttsmgr.desktop
