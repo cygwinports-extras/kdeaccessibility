@@ -1,0 +1,204 @@
+kbstateapplet
+------------------------------------------
+KDE keyboard accessibility state applet
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  kdelibs4-3.5.8-1
+  kicker-3.5.8-1
+  qt3-3.3.8-3
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.9-1.9.6-2
+  binutils-20060817-1
+  cygport-0.3.7-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  gcc-g++-3.4.4-3
+  libtool1.5-1.5.23a-2
+  make-3.81-1
+  perl-5.8.7-5
+  pkg-config-0.21-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://www.kde.org/
+
+Canonical download:
+  ftp://ftp.kde.org/pub/kde/stable/3.5.8/src/
+
+-------------------------------------------
+
+Build instructions:
+  unpack kdeaccessibility-3.5.8-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./kdeaccessibility-3.5.8-X.cygport all
+
+This will create:
+  /usr/src/kdeaccessibility-3.5.8-X-src.tar.bz2
+  /usr/src/kdeaccessibility-3.5.8-X.tar.bz2
+
+  /usr/src/kdeaccessibility-iconthemes-3.5.8-X.tar.bz2
+  /usr/src/kbstateapplet-3.5.8-X.tar.bz2
+  /usr/src/kmag-3.5.8-X.tar.bz2
+  /usr/src/kmousetool-3.5.8-X.tar.bz2
+  /usr/src/kmouth-3.5.8-X.tar.bz2
+  /usr/src/ksayit-3.5.8-X.tar.bz2
+  /usr/src/kttsd-3.5.8-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary packages:
+
+(kbstateapplet)
+  /usr/lib/kde3/kbstate_panelapplet.dll
+  /usr/lib/kde3/kbstate_panelapplet.la
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/16x16/actions/altkey.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/16x16/actions/capskey.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/16x16/actions/controlkey.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/16x16/actions/hyperkey.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/16x16/actions/kbstate_mouse.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/16x16/actions/kbstate_mouse_left.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/16x16/actions/kbstate_mouse_left_selected.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/16x16/actions/kbstate_mouse_mid.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/16x16/actions/kbstate_mouse_mid_selected.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/16x16/actions/kbstate_mouse_right.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/16x16/actions/kbstate_mouse_right_selected.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/16x16/actions/kbstate_slowkeys.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/16x16/actions/kbstate_stickykeys.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/16x16/actions/key.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/16x16/actions/keypressno.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/16x16/actions/keypressok.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/16x16/actions/lockkey.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/16x16/actions/metakey.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/16x16/actions/shiftkey.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/16x16/actions/superkey.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/16x16/actions/unlatched.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/22x22/actions/altkey.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/22x22/actions/capskey.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/22x22/actions/controlkey.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/22x22/actions/hyperkey.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/22x22/actions/kbstate_mouse.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/22x22/actions/kbstate_mouse_left.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/22x22/actions/kbstate_mouse_left_selected.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/22x22/actions/kbstate_mouse_mid.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/22x22/actions/kbstate_mouse_mid_selected.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/22x22/actions/kbstate_mouse_right.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/22x22/actions/kbstate_mouse_right_selected.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/22x22/actions/kbstate_slowkeys.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/22x22/actions/kbstate_stickykeys.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/22x22/actions/key.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/22x22/actions/keypressno.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/22x22/actions/keypressok.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/22x22/actions/lockkey.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/22x22/actions/metakey.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/22x22/actions/shiftkey.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/22x22/actions/superkey.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/22x22/actions/unlatched.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/32x32/actions/altkey.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/32x32/actions/capskey.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/32x32/actions/controlkey.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/32x32/actions/hyperkey.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/32x32/actions/kbstate_mouse.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/32x32/actions/kbstate_mouse_left.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/32x32/actions/kbstate_mouse_left_selected.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/32x32/actions/kbstate_mouse_mid.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/32x32/actions/kbstate_mouse_mid_selected.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/32x32/actions/kbstate_mouse_right.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/32x32/actions/kbstate_mouse_right_selected.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/32x32/actions/kbstate_slowkeys.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/32x32/actions/kbstate_stickykeys.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/32x32/actions/key.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/32x32/actions/keypressno.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/32x32/actions/keypressok.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/32x32/actions/lockkey.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/32x32/actions/metakey.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/32x32/actions/shiftkey.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/32x32/actions/superkey.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/32x32/actions/unlatched.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/48x48/actions/altkey.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/48x48/actions/capskey.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/48x48/actions/controlkey.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/48x48/actions/hyperkey.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/48x48/actions/kbstate_mouse.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/48x48/actions/kbstate_mouse_left.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/48x48/actions/kbstate_mouse_left_selected.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/48x48/actions/kbstate_mouse_mid.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/48x48/actions/kbstate_mouse_mid_selected.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/48x48/actions/kbstate_mouse_right.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/48x48/actions/kbstate_mouse_right_selected.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/48x48/actions/kbstate_slowkeys.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/48x48/actions/kbstate_stickykeys.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/48x48/actions/key.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/48x48/actions/keypressno.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/48x48/actions/keypressok.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/48x48/actions/lockkey.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/48x48/actions/metakey.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/48x48/actions/shiftkey.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/48x48/actions/superkey.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/48x48/actions/unlatched.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/64x64/actions/altkey.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/64x64/actions/capskey.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/64x64/actions/controlkey.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/64x64/actions/hyperkey.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/64x64/actions/kbstate_mouse.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/64x64/actions/kbstate_mouse_left.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/64x64/actions/kbstate_mouse_left_selected.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/64x64/actions/kbstate_mouse_mid.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/64x64/actions/kbstate_mouse_mid_selected.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/64x64/actions/kbstate_mouse_right.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/64x64/actions/kbstate_mouse_right_selected.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/64x64/actions/kbstate_slowkeys.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/64x64/actions/kbstate_stickykeys.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/64x64/actions/key.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/64x64/actions/keypressno.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/64x64/actions/keypressok.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/64x64/actions/lockkey.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/64x64/actions/metakey.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/64x64/actions/shiftkey.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/64x64/actions/superkey.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/64x64/actions/unlatched.png
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/scalable/actions/altkey.svg
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/scalable/actions/capskey.svg
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/scalable/actions/controlkey.svg
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/scalable/actions/hyperkey.svg
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/scalable/actions/kbstate_mouse.svg
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/scalable/actions/kbstate_mouse_left.svg
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/scalable/actions/kbstate_mouse_left_selected.svg
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/scalable/actions/kbstate_mouse_mid.svg
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/scalable/actions/kbstate_mouse_mid_selected.svg
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/scalable/actions/kbstate_mouse_right.svg
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/scalable/actions/kbstate_mouse_right_selected.svg
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/scalable/actions/kbstate_slowkeys.svg
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/scalable/actions/kbstate_stickykeys.svg
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/scalable/actions/key.svg
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/scalable/actions/keypressno.svg
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/scalable/actions/keypressok.svg
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/scalable/actions/lockkey.svg
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/scalable/actions/metakey.svg
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/scalable/actions/shiftkey.svg
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/scalable/actions/superkey.svg
+  /usr/share/apps/kbstateapplet/icons/crystalsvg/scalable/actions/unlatched.svg
+  /usr/share/apps/kicker/applets/kbstateapplet.desktop
+
+------------------
+
+Port Notes:
+
+----- version 3.5.8-1 -----
+Version bump.
+
+----- version 3.5.7-1 -----
+Version bump.
+
+----- version 3.5.6-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

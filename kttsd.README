@@ -1,0 +1,181 @@
+kttsd
+------------------------------------------
+KDE text-to-speech engine
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  akode-2.0.2-1
+  arts-1.5.8-1
+  kdelibs4-3.5.8-1
+  qt3-3.3.8-3
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.9-1.9.6-2
+  binutils-20060817-1
+  cygport-0.3.7-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  gcc-g++-3.4.4-3
+  libtool1.5-1.5.23a-2
+  make-3.81-1
+  perl-5.8.7-5
+  pkg-config-0.21-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://www.kde.org/
+
+Canonical download:
+  ftp://ftp.kde.org/pub/kde/stable/3.5.8/src/
+
+-------------------------------------------
+
+Build instructions:
+  unpack kdeaccessibility-3.5.8-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./kdeaccessibility-3.5.8-X.cygport all
+
+This will create:
+  /usr/src/kdeaccessibility-3.5.8-X-src.tar.bz2
+  /usr/src/kdeaccessibility-3.5.8-X.tar.bz2
+
+  /usr/src/kdeaccessibility-iconthemes-3.5.8-X.tar.bz2
+  /usr/src/kbstateapplet-3.5.8-X.tar.bz2
+  /usr/src/kmag-3.5.8-X.tar.bz2
+  /usr/src/kmousetool-3.5.8-X.tar.bz2
+  /usr/src/kmouth-3.5.8-X.tar.bz2
+  /usr/src/ksayit-3.5.8-X.tar.bz2
+  /usr/src/kttsd-3.5.8-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary packages:
+
+(kttsd)
+  /usr/bin/kttsd.exe
+  /usr/bin/kttsmgr.exe
+  /usr/bin/cygkttsd-1.dll
+  /usr/lib/kde3/cygkttsd_akodeplugin.dll
+  /usr/lib/kde3/cygkttsd_artsplugin.dll
+  /usr/lib/kde3/cygkttsd_commandplugin.dll
+  /usr/lib/kde3/cygkttsd_eposplugin.dll
+  /usr/lib/kde3/cygkttsd_festivalintplugin.dll
+  /usr/lib/kde3/cygkttsd_fliteplugin.dll
+  /usr/lib/kde3/cygkttsd_freettsplugin.dll
+  /usr/lib/kde3/cygkttsd_hadifixplugin.dll
+  /usr/lib/kde3/cygkttsd_sbdplugin.dll
+  /usr/lib/kde3/cygkttsd_stringreplacerplugin.dll
+  /usr/lib/kde3/cygkttsd_talkerchooserplugin.dll
+  /usr/lib/kde3/cygkttsd_xmltransformerplugin.dll
+  /usr/lib/kde3/cygkttsjobmgrpart.dll
+  /usr/lib/kde3/kcm_kttsd.dll
+  /usr/lib/kde3/kcm_kttsd.la
+  /usr/lib/kde3/ktexteditor_kttsd.dll
+  /usr/lib/kde3/ktexteditor_kttsd.la
+  /usr/lib/kde3/libkttsd_akodeplugin.la
+  /usr/lib/kde3/libkttsd_artsplugin.la
+  /usr/lib/kde3/libkttsd_commandplugin.la
+  /usr/lib/kde3/libkttsd_eposplugin.la
+  /usr/lib/kde3/libkttsd_festivalintplugin.la
+  /usr/lib/kde3/libkttsd_fliteplugin.la
+  /usr/lib/kde3/libkttsd_freettsplugin.la
+  /usr/lib/kde3/libkttsd_hadifixplugin.la
+  /usr/lib/kde3/libkttsd_sbdplugin.la
+  /usr/lib/kde3/libkttsd_stringreplacerplugin.la
+  /usr/lib/kde3/libkttsd_talkerchooserplugin.la
+  /usr/lib/kde3/libkttsd_xmltransformerplugin.la
+  /usr/lib/kde3/libkttsjobmgrpart.la
+  /usr/lib/libkttsd.dll.a
+  /usr/lib/libkttsd.la
+  /usr/share/applications/kde/kcmkttsd.desktop
+  /usr/share/applications/kde/kttsmgr.desktop
+  /usr/share/apps/ktexteditor_kttsd/ktexteditor_kttsdui.rc
+  /usr/share/apps/kttsd/festivalint/sabletowave.scm
+  /usr/share/apps/kttsd/festivalint/voices
+  /usr/share/apps/kttsd/festivalint/xslt/SSMLtoSable.xsl
+  /usr/share/apps/kttsd/hadifix/xslt/SSMLtoTxt2pho.xsl
+  /usr/share/apps/kttsd/kcmkttsd_testmessage.desktop
+  /usr/share/apps/kttsd/sbd/polish_festival_sbdrc
+  /usr/share/apps/kttsd/sbd/standard_sbdrc
+  /usr/share/apps/kttsd/stringreplacer/abbreviations.xml
+  /usr/share/apps/kttsd/stringreplacer/chat-de.xml
+  /usr/share/apps/kttsd/stringreplacer/chat.xml
+  /usr/share/apps/kttsd/stringreplacer/emoticons.xml
+  /usr/share/apps/kttsd/stringreplacer/festival_unspeakable_chars.xml
+  /usr/share/apps/kttsd/stringreplacer/kmail.xml
+  /usr/share/apps/kttsd/stringreplacer/polish_festival_fixes.xml
+  /usr/share/apps/kttsd/stringreplacer/polish_festival_unspeakables.xml
+  /usr/share/apps/kttsd/stringreplacer/qt2plaintext.xml
+  /usr/share/apps/kttsd/talkerchooser/female_notifications_rc
+  /usr/share/apps/kttsd/xmltransformer/xhtml2ssml.xsl
+  /usr/share/apps/kttsd/xmltransformer/xhtml2ssml_simple.xsl
+  /usr/share/apps/kttsd/xslt/SSMLtoPlainText.xsl
+  /usr/share/doc/HTML/en/kttsd/addtalker.png
+  /usr/share/doc/HTML/en/kttsd/audio.png
+  /usr/share/doc/HTML/en/kttsd/common
+  /usr/share/doc/HTML/en/kttsd/festivalintconf.png
+  /usr/share/doc/HTML/en/kttsd/filters.png
+  /usr/share/doc/HTML/en/kttsd/general.png
+  /usr/share/doc/HTML/en/kttsd/index.cache.bz2
+  /usr/share/doc/HTML/en/kttsd/index.docbook
+  /usr/share/doc/HTML/en/kttsd/interruption.png
+  /usr/share/doc/HTML/en/kttsd/jobs.png
+  /usr/share/doc/HTML/en/kttsd/notifications.png
+  /usr/share/doc/HTML/en/kttsd/selecttalker.png
+  /usr/share/doc/HTML/en/kttsd/stringreplacer.png
+  /usr/share/doc/HTML/en/kttsd/talkerchooser.png
+  /usr/share/doc/HTML/en/kttsd/talkers.png
+  /usr/share/doc/HTML/en/kttsd/xmltransformer.png
+  /usr/share/icons/hicolor/16x16/actions/female.png
+  /usr/share/icons/hicolor/16x16/actions/male.png
+  /usr/share/icons/hicolor/16x16/actions/nospeak.png
+  /usr/share/icons/hicolor/16x16/actions/speak.png
+  /usr/share/icons/hicolor/22x22/actions/nospeak.png
+  /usr/share/icons/hicolor/22x22/actions/speak.png
+  /usr/share/icons/hicolor/32x32/actions/nospeak.png
+  /usr/share/icons/hicolor/32x32/actions/speak.png
+  /usr/share/icons/hicolor/48x48/actions/nospeak.png
+  /usr/share/icons/hicolor/48x48/actions/speak.png
+  /usr/share/icons/locolor/16x16/actions/speak.png
+  /usr/share/icons/locolor/22x22/actions/speak.png
+  /usr/share/icons/locolor/32x32/actions/speak.png
+  /usr/share/services/ktexteditor_kttsd.desktop
+  /usr/share/services/kttsd.desktop
+  /usr/share/services/kttsd_akodeplugin.desktop
+  /usr/share/services/kttsd_artsplugin.desktop
+  /usr/share/services/kttsd_commandplugin.desktop
+  /usr/share/services/kttsd_eposplugin.desktop
+  /usr/share/services/kttsd_festivalintplugin.desktop
+  /usr/share/services/kttsd_fliteplugin.desktop
+  /usr/share/services/kttsd_freettsplugin.desktop
+  /usr/share/services/kttsd_hadifixplugin.desktop
+  /usr/share/services/kttsd_sbdplugin.desktop
+  /usr/share/services/kttsd_stringreplacerplugin.desktop
+  /usr/share/services/kttsd_talkerchooserplugin.desktop
+  /usr/share/services/kttsd_xmltransformerplugin.desktop
+  /usr/share/services/kttsjobmgr.desktop
+  /usr/share/servicetypes/kttsd_audioplugin.desktop
+  /usr/share/servicetypes/kttsd_filterplugin.desktop
+  /usr/share/servicetypes/kttsd_synthplugin.desktop
+
+------------------
+
+Port Notes:
+
+----- version 3.5.8-1 -----
+Version bump.
+
+----- version 3.5.7-1 -----
+Version bump.
+
+----- version 3.5.6-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

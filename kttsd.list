@@ -21,3 +21,4 @@ usr/share/services/ktexteditor_kttsd.desktop
 usr/share/services/ktts*
 usr/share/servicetypes/kttsd_*
 usr/share/doc/kttsd-*/
+usr/share/doc/Cygwin/kttsd-*.README

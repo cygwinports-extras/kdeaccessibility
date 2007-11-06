@@ -6,3 +6,4 @@ usr/share/applications/kde/ksayit.desktop
 usr/share/apps/ksayit/
 usr/share/icons/hicolor/*/apps/ksayit*.png
 usr/share/doc/ksayit-*/
+usr/share/doc/Cygwin/ksayit-*.README
