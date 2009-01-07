@@ -1,5 +1,5 @@
 category: KDE
-requires: kdeaccessibility-iconthemes kbstateapplet kmag kmousetool kmouth ksayit kttsd
+requires: kde-icons-mono kbstateapplet kmag kmousetool kmouth ksayit kttsd
 sdesc: "KDE accessibility suite (meta-package)"
 ldesc: "KDE accessibility suite:
 * kbstateapplet: keyboard state applet

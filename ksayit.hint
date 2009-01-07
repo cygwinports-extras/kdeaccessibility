@@ -1,5 +1,5 @@
 category: KDE
-requires: cygwin kdelibs4 qt3 arts
+requires: cygwin kdelibs4 libqt3 libarts1
 external-source: kdeaccessibility
 sdesc: "KDE text-to-speech frontend"
 ldesc: "KDE accessibility suite:

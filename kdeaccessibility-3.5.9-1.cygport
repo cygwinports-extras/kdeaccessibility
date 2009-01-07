@@ -1,7 +1,0 @@
-inherit kde3
-
-PKG_NAMES="${PN} ${PN}-iconthemes kbstateapplet kmag kmousetool kmouth ksayit kttsd"
-PKG_CONTENTS[0]="etc/ usr/share/doc/${P}/"
-PKG_CONTENTS[1]='usr/share/icons/mono/'
-
-CYGCONF_ARGS='--with-akode --without-gstreamer'
