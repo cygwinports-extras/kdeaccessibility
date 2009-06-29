@@ -1,5 +1,5 @@
 category: KDE
-requires: cygwin kdelibs4 libqt3 kicker
+requires: kdelibs4 libqt3 kicker
 external-source: kdeaccessibility
 sdesc: "KDE keyboard state applet"
 ldesc: "KDE accessibility suite:
