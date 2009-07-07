@@ -1,94 +1,78 @@
 kmousetool
 ------------------------------------------
-KDE accessibility tool which clicks mouse button automatically 
-based on mouse movements.
+KMouseTool clicks the mouse for you, so you don't have to. It 
+works with any mouse or pointing device.
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  kdelibs4-3.5.10-1
-  libqt3-3.3.8b-1
-  libXtst6-1.0.3-2
+  cygwin-1.7.0-50
+  libgcc1-4.3.2-2
+  libkdecore5-4.2.4-1
+  libphonon4-4.3.1-1
+  libQtCore4-4.5.2-1
+  libQtGui4-4.5.2-1
+  libstdc++6-4.3.2-2
+  libX11_6-1.2.1-1
+  libXtst6-1.0.3-10
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.63-1
-  automake1.10-1.10.1-2
+  automoc4-0.9.88-10
   binutils-20080624-2
-  cygport-0.4.4-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  gcc-g++-3.4.4-3
-  libtool-2.2.6a-1
-  make-3.81-1
-  perl-5.10.0-5
-  pkg-config-0.23a-2
-  sed-4.1.5-2
+  cmake-2.6.4-10
+  cygport-0.9.8-1
+  gcc4-core-4.3.2-2
+  gcc4-g++-4.3.2-2
+  make-3.81-2
+  pkg-config-0.23b-10
 
 Canonical website:
   http://www.kde.org/
 
 Canonical download:
-  ftp://ftp.kde.org/pub/kde/stable/3.5.10/src/
+  ftp://ftp.kde.org/pub/kde/stable/4.2.4/
 
 -------------------------------------------
 
 Build instructions:
-  unpack kdeaccessibility-3.5.10-X-src.tar.bz2
+  unpack kdeaccessibility-4.2.4-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./kdeaccessibility-3.5.10-X.cygport all
+  cygport ./kdeaccessibility-4.2.4-X.cygport all
 
 This will create:
-  /usr/src/kdeaccessibility-3.5.10-X-src.tar.bz2
-
-  /usr/src/kde-icons-mono-3.5.10-X.tar.bz2
-  /usr/src/kbstateapplet-3.5.10-X.tar.bz2
-  /usr/src/kmag-3.5.10-X.tar.bz2
-  /usr/src/kmousetool-3.5.10-X.tar.bz2
-  /usr/src/kmouth-3.5.10-X.tar.bz2
-  /usr/src/ksayit-3.5.10-X.tar.bz2
-  /usr/src/kttsd-3.5.10-X.tar.bz2
+  /usr/src/kdeaccessibility-4.2.4-X-src.tar.bz2
+  /usr/src/kde-icons-mono-4.2.4-X.tar.bz2
+  /usr/src/kmag-4.2.4-X.tar.bz2
+  /usr/src/kmousetool-4.2.4-X.tar.bz2
+  /usr/src/kmouth-4.2.4-X.tar.bz2
+  /usr/src/kttsd-4.2.4-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary packages:
+Files included in the binary package:
 
-(kmousetool)
   /usr/bin/kmousetool.exe
-  /usr/share/applnk/Applications/kmousetool.desktop
-  /usr/share/apps/kmousetool/icons/hicolor/16x16/actions/kmousetool_off.png
-  /usr/share/apps/kmousetool/icons/hicolor/16x16/actions/kmousetool_on.png
-  /usr/share/apps/kmousetool/icons/hicolor/16x16/apps/kmousetool.png
-  /usr/share/apps/kmousetool/icons/hicolor/32x32/actions/kmousetool_off.png
-  /usr/share/apps/kmousetool/icons/hicolor/32x32/actions/kmousetool_on.png
-  /usr/share/apps/kmousetool/icons/hicolor/32x32/apps/kmousetool.png
-  /usr/share/apps/kmousetool/sounds/mousetool_tap.wav
+  /usr/share/applications/kde4/kmousetool.desktop
   /usr/share/doc/HTML/en/kmousetool/common
   /usr/share/doc/HTML/en/kmousetool/index.cache.bz2
   /usr/share/doc/HTML/en/kmousetool/index.docbook
   /usr/share/doc/HTML/en/kmousetool/man-kmousetool.1.docbook
+  /usr/share/icons/hicolor/16x16/actions/kmousetool_off.png
+  /usr/share/icons/hicolor/16x16/actions/kmousetool_on.png
   /usr/share/icons/hicolor/16x16/apps/kmousetool.png
+  /usr/share/icons/hicolor/32x32/actions/kmousetool_off.png
+  /usr/share/icons/hicolor/32x32/actions/kmousetool_on.png
   /usr/share/icons/hicolor/32x32/apps/kmousetool.png
+  /usr/share/kde4/apps/kmousetool/sounds/mousetool_tap.wav
+  /usr/share/man/man1/kmousetool.1.gz
 
 ------------------
 
 Port Notes:
 
------ version 3.5.10-1 -----
-Version bump.
-
------ version 3.5.9-1 -----
-Version bump.
-
------ version 3.5.8-1 -----
-Version bump.
-
------ version 3.5.7-1 -----
-Version bump.
-
------ version 3.5.6-1 -----
-Initial release for Cygwin.
+----- version 4.2.4-1 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:

@@ -1,8 +1,11 @@
 usr/bin/kmag.exe
-usr/share/applnk/Applications/kmag.desktop
-usr/share/apps/kmag/
+usr/share/applications/kde4/kmag.desktop
 usr/share/doc/HTML/en/kmag/
-usr/share/icons/hicolor/*/apps/kmag.png
-usr/share/icons/locolor/*/apps/kmag.png
-usr/share/doc/kmag-*/
-usr/share/doc/Cygwin/kmag-*.README
+usr/share/icons/hicolor/16x16/actions/followmouse.png
+usr/share/icons/hicolor/16x16/actions/hidemouse.png
+usr/share/icons/hicolor/16x16/actions/window.png
+usr/share/icons/hicolor/*/apps/kmag.*
+usr/share/kde4/apps/kmag/
+usr/share/man/man1/kmag.1.gz
+usr/share/doc/Cygwin/kmag.README
+usr/share/doc/kmag/

@@ -1,10 +1,7 @@
-category: KDE
-requires: kde-icons-mono kbstateapplet kmag kmousetool kmouth ksayit kttsd
-sdesc: "KDE accessibility suite (meta-package)"
+category: KDE Accessibility
+sdesc: "KDE accessibility suite (sources)"
 ldesc: "KDE accessibility suite:
-* kbstateapplet: keyboard state applet
 * kmag: screen magnifier
 * kmousetool: clicks mouse button automatically based on mouse movements
 * kmouth: speech synthesizer frontend
-* ksayit: text-to-speech frontend
 * kttsd: text-to-speech engine"

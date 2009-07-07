@@ -1,1 +1,6 @@
 inherit kde4
+
+PKG_NAMES="${PN} kde-icons-mono kmag kmousetool kmouth kttsd"
+kde_icons_mono_CONTENTS="usr/share/icons/mono/ usr/share/kde4/apps/color-schemes/"
+# private library
+PKG_IGNORE="usr/lib/kde4/lib/libkttsd.dll.a"

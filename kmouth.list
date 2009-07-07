@@ -1,9 +1,9 @@
 usr/bin/kmouth.exe
-usr/share/applnk/Applications/kmouth.desktop
-usr/share/apps/kmouth/
-usr/share/config/kmouthrc
+usr/share/applications/kde4/kmouth.desktop
 usr/share/doc/HTML/en/kmouth/
-usr/share/doc/kmouth-*/
-usr/share/icons/hicolor/*/apps/kmouth.png
-usr/share/icons/locolor/*/apps/kmouth.png
-usr/share/doc/Cygwin/kmouth-*.README
+usr/share/icons/hicolor/*/apps/kmouth.*
+usr/share/kde4/apps/kmouth/
+usr/share/kde4/config/kmouthrc
+usr/share/man/man1/kmouth.1.gz
+usr/share/doc/Cygwin/kmouth.README
+usr/share/doc/kmouth/

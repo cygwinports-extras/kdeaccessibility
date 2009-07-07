@@ -1,8 +1,0 @@
-inherit kde3
-
-PKG_NAMES="${PN} kde-icons-mono kbstateapplet kmag kmousetool kmouth ksayit kttsd"
-kdeaccessibility_CONTENTS="etc/ usr/share/doc/${P}/"
-kde_icons_mono_CONTENTS='usr/share/icons/mono/'
-
-# gstreamer == 0.8
-CYGCONF_ARGS='--with-akode --without-gstreamer'
