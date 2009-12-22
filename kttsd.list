@@ -6,5 +6,4 @@ usr/share/icons/hicolor/*/actions/*male.png
 usr/share/icons/hicolor/*/actions/*speak.png
 usr/share/kde4/apps/kttsd/
 usr/share/kde4/service*/*ktts*.desktop
-usr/share/doc/Cygwin/kttsd.README
 usr/share/doc/kttsd/
