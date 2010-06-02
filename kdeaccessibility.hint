@@ -1,5 +1,6 @@
 category: KDE Accessibility
-sdesc: "KDE accessibility suite (sources)"
+requires: kde-icons-mono kmag kmousetool kmouth kttsd
+sdesc: "KDE accessibility suite (meta-package)"
 ldesc: "KDE accessibility suite:
 * kmag: screen magnifier
 * kmousetool: clicks mouse button automatically based on mouse movements
