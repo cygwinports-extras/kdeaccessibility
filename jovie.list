@@ -1,0 +1,13 @@
+usr/bin/cygkttsd-4.dll
+usr/bin/jovie.exe
+usr/lib/kde4/jovie_*
+usr/lib/kde4/*kttsd*
+usr/share/doc/HTML/en/jovie/
+usr/share/doc/jovie/
+usr/share/icons/hicolor/*/actions/*male.png
+usr/share/icons/hicolor/*/actions/*speak.png
+usr/share/kde4/apps/jovie/
+usr/share/kde4/apps/kttsd/
+usr/share/kde4/services/jovie*
+usr/share/kde4/services/*kttsd*
+usr/share/kde4/servicetypes/jovie_filterplugin.desktop

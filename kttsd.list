@@ -1,9 +1,0 @@
-usr/bin/*ktts*
-usr/lib/kde4/*ktts*.dll
-usr/share/applications/kde4/kttsmgr.desktop
-usr/share/doc/HTML/en/kttsd/
-usr/share/icons/hicolor/*/actions/*male.png
-usr/share/icons/hicolor/*/actions/*speak.png
-usr/share/kde4/apps/kttsd/
-usr/share/kde4/service*/*ktts*.desktop
-usr/share/doc/kttsd/

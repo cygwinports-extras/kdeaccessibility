@@ -1,5 +1,5 @@
 category: KDE Accessibility
-requires: kde-icons-mono kmag kmousetool kmouth kttsd
+requires: jovie kde-icons-mono kmag kmousetool kmouth
 sdesc: "KDE accessibility suite (meta-package)"
 ldesc: "KDE accessibility suite:
 * kmag: screen magnifier
