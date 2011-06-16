@@ -2,6 +2,7 @@ usr/bin/cygkttsd-4.dll
 usr/bin/jovie.exe
 usr/lib/kde4/jovie_*
 usr/lib/kde4/*kttsd*
+usr/share/applications/kde4/jovieapp.desktop
 usr/share/doc/HTML/en/jovie/
 usr/share/doc/jovie/
 usr/share/icons/hicolor/*/actions/*male.png

@@ -1,6 +1,6 @@
 inherit kde4
 
-PKG_NAMES="${PN} jovie kde-icons-mono kmag kmousetool kmouth"
+PKG_NAMES="${PN} jovie kde-icons-mono kmag kmousetool kmouth kaccessible"
 kdeaccessibility_CONTENTS="etc/ usr/share/doc/${PN}/"
 kde_icons_mono_CONTENTS="usr/share/icons/mono/ usr/share/kde4/apps/color-schemes/"
 # private library

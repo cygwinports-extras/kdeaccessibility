@@ -1,0 +1,3 @@
+usr/lib/kde4/libexec/kaccessibleapp.exe
+usr/lib/kde4/plugins/accessiblebridge/kaccessiblebridge.dll
+usr/share/dbus-1/services/org.kde.kaccessible.service
