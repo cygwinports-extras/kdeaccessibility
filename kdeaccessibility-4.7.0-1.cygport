@@ -1,0 +1,6 @@
+inherit kde4
+
+PKG_NAMES="${PN} jovie kmag kmousetool kmouth kaccessible"
+kdeaccessibility_CONTENTS="etc/ usr/share/doc/${PN}/"
+# private library
+PKG_IGNORE="usr/lib/libkttsd.dll.a"
